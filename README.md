@@ -51,3 +51,54 @@ The database in this sample code consists of two collections
 }
 ```
 
+#### Installation Instructions
+
+##### Install on your deta micro
+
+Note: Assumues you have deta cli - otherwise [look here for details](https://docs.deta.sh/docs/cli/install)
+
+OPTION 1: Hit [![Deploy](https://button.deta.dev/1/svg)](https://go.deta.dev/deploy?repo=https://github.com/ugmurthy/deta-crud)
+
+OPTION 2: The path where you will learn something if you are new to deta
+```
+## STEP 1 - clone the repo
+$ git clone https://github.com/ugmurthy/deta-crud
+$ cd deta-crud
+
+## STEP 2 - login and create a new micro - keep a note of the endpoint
+$ deta login
+$ deta new
+
+## STEP 3
+## use a text editor to create .env file with following environment variables
+## DB_USER=db_user_name
+## DB_PWD==db_password
+## DB_HOST=db_hostname
+
+## STEP 4 update the environment variables on deta micro
+$ deta update --env .env
+
+## depluy your code
+$ deta deploy
+```
+
+##### Install on your local machine
+
+```
+## Create a virual environment if needed
+$ git clone https://github.com/ugmurthy/deta-crud
+$ cd deta-crud
+$ pip install -r requirements.txt
+## use a text editor to create .env file with following environment variables
+## DB_USER=db_user_name
+## DB_PWD==db_password
+## DB_HOST=db_hostname
+
+$ uvicorn main:app --reload
+```
+
+Once done use a browser to browse the endpoint/docs for the list of APIs
+
+
+
+    
