@@ -1,0 +1,15 @@
+anyio==3.3.4
+cffi==1.15.0
+dnspython==2.1.0
+fastapi==0.70.0
+idna==3.3
+motor==2.5.1
+pycparser==2.21
+pydantic==1.8.2
+pymongo==3.12.1
+python-multipart==0.0.5
+six==1.16.0
+sniffio==1.2.0
+starlette==0.16.0
+typing-extensions==3.10.0.2
+markdown
