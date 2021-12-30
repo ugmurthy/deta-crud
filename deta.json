@@ -1,0 +1,26 @@
+{
+    "name": "deta-crud",
+    "description": "API for MONGO DB CRUD operations",
+    "runtime": "python3.",
+    "env": [
+        {
+            "key": "DB_USER",
+            "description": "Mongo DB Username",
+            "value": "",
+            "required": true
+        },
+        {
+            "key": "DB_PWD",
+            "description": "Mongo DB Password",
+            "value": "",
+            "required": true
+        },
+        {
+            "key": "DB_HOST",
+            "description": "MONGO DB HOST name",
+            "value": " ",
+            "required": true
+        }
+
+    ]
+}

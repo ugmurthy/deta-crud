@@ -9,7 +9,7 @@ DB_PWD = getenv('DB_PWD')
 DB_HOST = getenv('DB_HOST')
 
 MONGO_DETAILS = f"mongodb+srv://{DB_USER}:{DB_PWD}@{DB_HOST}?retryWrites=true&w=majority"
-#MONGO_DETAILS =""
+
 print(MONGO_DETAILS)
 try:
     client = motor.motor_asyncio.AsyncIOMotorClient(MONGO_DETAILS)
