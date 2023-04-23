@@ -72,7 +72,7 @@ $ deta new
 ## STEP 3
 ## use a text editor to create .env file with following environment variables
 ## DB_USER=db_user_name
-## DB_PWD==db_password
+## DB_PWD=db_password
 ## DB_HOST=db_hostname
 
 ## STEP 4 update the environment variables on deta micro
